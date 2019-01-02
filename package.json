@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "gatsby-starter-forty-v2",
+  "description": "Gatsby Starter - Forty V2",
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
@@ -20,7 +20,6 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "build:gh-pages": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
