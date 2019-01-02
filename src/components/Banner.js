@@ -1,20 +1,32 @@
 import React from 'react'
 
-const Banner = (props) => (
-    <section id="banner" className="major">
-        <div className="inner">
-            <header className="major">
-                <h1>Hi, my name is Forty</h1>
-            </header>
-            <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
-                <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
-                </ul>
-            </div>
+const Banner = props => (
+  <section id="banner" className="major">
+    <div className="inner">
+      <header className="major">
+        <div>
+          <h1>
+            <span className="tedx">TEDx</span>MCInnsbruck
+          </h1>
+          <h2>what changes and stays</h2>
         </div>
-    </section>
+      </header>
+      <div className="content">
+        <p>
+          16th of June 2019
+          <br />
+          MCI Innsbruck
+        </p>
+        <ul className="actions">
+          <li>
+            <a href="#one" disabled className="button next scrolly">
+              Tickets
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 )
 
 export default Banner
