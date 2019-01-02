@@ -47,6 +47,8 @@ const Contact = props => (
             <span>
               Management Center Innsbruck
               <br />
+              Universitätsstraße 7
+              <br />
               6020 Innsbruck
               <br />
               Tirol, Austria
