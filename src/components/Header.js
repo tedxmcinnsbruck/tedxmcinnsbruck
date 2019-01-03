@@ -9,8 +9,8 @@ const Header = props => (
     </Link>
     <nav>
       <Link to="#tickets">Tickets</Link>
-      <Link to="#speakers">Speakers</Link>
-      <Link to="#partners">Partners</Link>
+      {/* <Link to="#speakers">Speakers</Link>
+      <Link to="#partners">Partners</Link> */}
       {/* <Link to="#team">Team</Link> */}
       <Link to="#contact">Contact</Link>
       {/* <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">

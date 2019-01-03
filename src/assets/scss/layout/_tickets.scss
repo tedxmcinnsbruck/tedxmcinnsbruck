@@ -1,0 +1,32 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+/* Banner */
+
+#tickets {
+    background: #ff2b06;
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-family: 'Helvetica';
+            letter-spacing: .04em;
+            font-size: 2em;
+            a:hover {
+                color: white !important;
+                opacity: .7;
+            }
+        }
+        .actions {
+            margin-right: 3em;
+            .button:hover {
+                background: white;
+            }
+        }
+    }
+}
