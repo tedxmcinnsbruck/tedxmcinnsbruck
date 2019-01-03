@@ -20,9 +20,9 @@ const Tickets = props => (
       </header>
       <ul className="actions">
         <li>
-          <Link to="/landing" className="button next">
+          <a href="https://ti.to/tedxmcinnsbruck/2019" className="button next">
             Tickets
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
