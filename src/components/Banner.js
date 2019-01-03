@@ -8,22 +8,29 @@ const Banner = props => (
           <h1>
             <span className="tedx">TEDx</span>MCInnsbruck
           </h1>
-          <h2>what changes and stays</h2>
+          <span className="tedx-note">
+            <span className="x">x</span> = independently organized TED event
+          </span>
         </div>
       </header>
       <div className="content">
-        <p>
+        <h2>
+          <span>RETHINK</span>
+          <span>what changes and stays</span>
+        </h2>
+        {/* <p>
           16th of June 2019
           <br />
           MCI Innsbruck
-        </p>
-        <ul className="actions">
+        </p> */}
+        <br />
+        {/* <ul className="actions">
           <li>
             <a href="#one" disabled className="button next scrolly">
               Tickets
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </section>

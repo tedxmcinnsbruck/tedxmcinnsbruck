@@ -31,7 +31,7 @@
         display: block;
         height: 100%;
         left: 0;
-        opacity: 0.85;
+        opacity: 0.75;
         position: absolute;
         top: 0;
         width: 100%;
@@ -43,18 +43,23 @@
     }
     h1 {
         font-size: 5.25em;
-        margin: 1.5em 0 -.3em 0;
+        margin: 1.5em 0 -0.35em 0;
         >.tedx {
             color: _palette(highlight);
-            font-weight: bold;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            margin-right: 0.05em;
         }
     }
-    h2 {
-        text-transform: uppercase;
-        font-size: 2em;
+    .tedx-note {
+        margin-left: 1.55em;
+        .x {
+            color: _palette(highlight);
+            font-weight: 800;
+        }
     }
     >.inner {
-        @include vendor('transition', ( 'opacity 1.5s ease', 'transform 0.5s ease-out', 'filter 0.5s ease', '-webkit-filter 0.5s ease'));
+        @include vendor( 'transition', ( 'opacity 1.5s ease', 'transform 0.5s ease-out', 'filter 0.5s ease', '-webkit-filter 0.5s ease'));
         padding: 0 !important;
         position: relative;
         z-index: 2;
@@ -72,11 +77,26 @@
         }
         .content {
             @include vendor('display', 'flex');
-            @include vendor('align-items', 'center');
-            margin: 0 0 _size(element-margin) 0;
+            @include vendor('flex-direction', 'column');
+            margin-top: 4em;
             >* {
                 margin-left: 1.5em;
                 margin-bottom: 0;
+            }
+            h2 {
+                font-size: 2em;
+                display: flex;
+                flex-direction: column;
+                >span {
+                    text-transform: uppercase;
+                    font-size: .8em;
+                    &:first-child {
+                        font-weight: bold;
+                        font-size: 1.3em;
+                        margin-bottom: -.5em;
+                        margin-left: -.06em;
+                    }
+                }
             }
             > :first-child {
                 margin-left: 0;
@@ -90,7 +110,7 @@
         }
     }
     &.major {
-        height: 75vh;
+        height: 85vh;
         min-height: 30em;
         max-height: 50em;
         &.alt {
@@ -129,7 +149,7 @@
     }
     .body.is-loading & {
         &:after {
-            opacity: 1.0;
+            opacity: 1;
         }
         >.inner {
             @include vendor('filter', 'blur(0.125em)');

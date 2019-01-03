@@ -4,42 +4,15 @@ const Contact = props => (
   <section id="contact">
     <div className="inner">
       <section>
-        <ul className="icons">
-          <li>
-            <a href="#" className="icon alt fa-twitter">
-              <span className="label">Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="icon alt fa-facebook">
-              <span className="label">Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="icon alt fa-instagram">
-              <span className="label">Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="icon alt fa-github">
-              <span className="label">GitHub</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="icon alt fa-linkedin">
-              <span className="label">LinkedIn</span>
-            </a>
-          </li>
-        </ul>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.3201115086594!2d11.395278215646982!3d47.26899661923139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6bfc185d925b%3A0xcdad4d9263a755a6!2sUniversit%C3%A4tsstra%C3%9Fe+7%2C+6020+Innsbruck!5e0!3m2!1sen!2sat!4v1546513241848"
+          width="700"
+          height="350"
+          frameborder="0"
+          style={{ border: 0 }}
+        />
       </section>
       <section className="split">
-        <section>
-          <div className="contact-method">
-            <span className="icon alt fa-envelope" />
-            <h3>Email</h3>
-            <a href="#">info@tedxmcinnsbruck.at</a>
-          </div>
-        </section>
         <section>
           <div className="contact-method">
             <span className="icon alt fa-home" />
