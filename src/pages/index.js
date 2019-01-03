@@ -19,8 +19,15 @@ class HomeIndex extends React.Component {
         <Helmet
           title="TEDxMCInnsbruck"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content: 'TEDxMCInnsbruck, 15.06.2019, MCI Innsbruck, Tirol',
+            },
+            {
+              name: 'keywords',
+              content:
+                'tedx, innsbruck, mci, ted, technology, education, design, sharing, ideas',
+            },
           ]}
         />
 
