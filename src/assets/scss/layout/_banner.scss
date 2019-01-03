@@ -96,6 +96,10 @@
                         margin-bottom: -.5em;
                         margin-left: -.06em;
                     }
+                    >.re {
+                        font-weight: 800;
+                        color: _palette(highlight);
+                    }
                 }
             }
             > :first-child {

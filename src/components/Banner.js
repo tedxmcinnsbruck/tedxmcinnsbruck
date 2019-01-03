@@ -15,7 +15,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <h2>
-          <span>RETHINK</span>
+          <span>
+            <span className="re">Re</span>Think
+          </span>
           <span>what changes and stays</span>
         </h2>
         {/* <p>

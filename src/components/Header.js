@@ -5,7 +5,12 @@ import { Link } from 'gatsby'
 const Header = props => (
   <header id="header" className="alt">
     <Link to="/" className="logo">
-      <span class="tedx">TEDx</span>MCInnsbruck
+      <span>
+        <span class="tedx">TEDx</span>MCInnsbruck
+      </span>
+      <span className="tedx-note">
+        <span className="x">x</span> = independently organized TED event
+      </span>
     </Link>
     <nav>
       <Link to="#tickets">Tickets</Link>
