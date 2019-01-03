@@ -10,6 +10,7 @@
     .inner {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         h2 {
             color: white;
             text-transform: uppercase;
@@ -23,6 +24,7 @@
             }
         }
         .actions {
+            margin-left: 1em;
             margin-right: 3em;
             .button:hover {
                 background: white;
