@@ -6,7 +6,7 @@ const Header = props => (
   <header id="header" className="alt">
     <Link to="/" className="logo">
       <span>
-        <span class="tedx">TEDx</span>MCInnsbruck
+        <span className="tedx">TEDx</span>MCInnsbruck
       </span>
       <span className="tedx-note">
         <span className="x">x</span> = independently organized TED event
