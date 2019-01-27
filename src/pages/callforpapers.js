@@ -56,8 +56,8 @@ const Landing = props => (
                 callforpapers@tedxmcinnsbruck.at
               </a>
             </span>{' '}
-            until 17 February 2019, 23:59. In case the file is too large to be
-            sent via e-mail, just upload your video to a cloud storage and
+            until <b>17 February 2019, 23:59</b>. In case the file is too large
+            to be sent via e-mail, just upload your video to a cloud storage and
             provide us with a link.
           </p>
 
