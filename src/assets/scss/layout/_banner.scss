@@ -41,18 +41,27 @@
     h2 {
         font-weight: 100;
     }
-    h1 {
-        font-size: 5.25em;
-        margin: 1.5em 0 -0.35em 0;
-        >.tedx {
-            color: _palette(highlight);
-            font-weight: 800;
-            letter-spacing: -0.05em;
-            margin-right: 0.05em;
+    .title {
+        text-transform: uppercase;
+        > h1 {
+            font-size: 5.25em;
+            margin: 1.5em 0 -0.35em -.07em;
+            >span {
+                &:first-child {
+                    font-weight: bold;
+                }
+                &.re {
+                    font-weight: 800;
+                    color: _palette(highlight);
+                }
+            }
+        }
+        > span {
+            font-size: 2.5em;
         }
     }
     .tedx-note {
-        margin-left: 1.55em;
+        margin-left: .38em;
         .x {
             color: _palette(highlight);
             font-weight: 800;
@@ -85,21 +94,13 @@
             }
             h2 {
                 font-size: 2em;
-                display: flex;
-                flex-direction: column;
-                >span {
-                    text-transform: uppercase;
-                    font-size: .8em;
-                    &:first-child {
-                        font-weight: bold;
-                        font-size: 1.3em;
-                        margin-bottom: -.5em;
-                        margin-left: -.06em;
-                    }
-                    >.re {
-                        font-weight: 800;
-                        color: _palette(highlight);
-                    }
+                margin-top: .5em;
+                margin-bottom: -.2em;
+                >.tedx {
+                    color: _palette(highlight);
+                    font-weight: 800;
+                    letter-spacing: -0.05em;
+                    margin-right: 0.05em;
                 }
             }
             > :first-child {

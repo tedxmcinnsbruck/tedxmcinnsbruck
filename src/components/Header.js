@@ -13,6 +13,7 @@ const Header = props => (
       </span>
     </Link>
     <nav>
+      <Link to="/callforpapers">Call for Papers</Link>
       <Link to="#tickets">Tickets</Link>
       {/* <Link to="#speakers">Speakers</Link>
       <Link to="#partners">Partners</Link> */}
