@@ -31,4 +31,14 @@
             }
         }
     }
+    @include breakpoint(small) {
+        .inner {
+            flex-direction: column;
+            text-align: center;
+            .actions {
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+    }
 }

@@ -10,7 +10,7 @@ const Contact = props => (
           title="location-map"
           height="350"
           frameBorder="0"
-          style={{ border: 0 }}
+          style={{ border: 0, width: '100%' }}
         />
       </section>
       <section className="split">
