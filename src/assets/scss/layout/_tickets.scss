@@ -35,6 +35,9 @@
         .inner {
             flex-direction: column;
             text-align: center;
+            h2 {
+                width: 100%;
+            }
             .actions {
                 margin-right: 0;
                 margin-left: 0;
